@@ -1,7 +1,4 @@
-
 import requests
-
-# Function to fetch weather data from the API
 def fetch_weather_data():
     api_url = "https://samples.openweathermap.org/data/2.5/forecast/hourly?q=London,us&appid=b6907d289e10d714a6e88b30761fae22"  
     response = requests.get(api_url)
